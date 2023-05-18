@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import { Fragment, React } from "react";
+import './App.css';
 
 const App = () => {
   return (
