@@ -30,3 +30,50 @@ body {
     align-items: center;
     margin: 30px;
   }
+
+  .botones {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+    justify-content: space-evenly;
+  }
+
+  .boton1off {
+    opacity: 0.5;
+    color: rgb(248, 244, 234);
+    border-radius: 25px;
+    height: 45px;
+    width: 130px;
+    font-size: 20px;
+    border: none;
+    background: rgb(87, 155, 177);
+  }
+  .boton1on {
+    color: rgb(248, 244, 234);
+    border-radius: 25px;
+    height: 45px;
+    width: 130px;
+    font-size: 20px;
+    border: none;
+    background: rgb(87, 155, 177);
+  }
+
+  .boton2 {
+    color: rgb(248, 244, 234);
+    border-radius: 25px;
+    height: 45px;
+    width: 130px;
+    font-size: 20px;
+    border: none;
+    background: rgb(87, 155, 177);
+  }
+
+  .boton1on:active {
+    background: rgb(63, 125, 146);
+  }
+  
+  .boton2:active {
+    background: rgb(63, 125, 146);
+  }
+
+ 
