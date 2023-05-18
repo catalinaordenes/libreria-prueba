@@ -1,79 +1,57 @@
 body {
     background-color: rgb(236, 232, 221);
-}
-
-h1,
-h2 {
-    color: rgb(80 80 80);
-}
-
-h1 {
-    margin-top: 10px;
-}
-
-h2 {
-    margin-top: 0;
-    margin-bottom: 20px;
-}
-
-.navbar {
+  }
+  
+  .navbar {
     background-color: rgb(87, 155, 177);
     padding: 1px;
     text-align: center;
-}
-
-.mensaje {
+  }
+  
+  h1,
+  h2 {
+    color: rgb(80 80 80);
+  }
+  
+  h1{
+    margin-top: 10px;
+  }
+  h2{
+    margin-top:0;
+    margin-bottom: 20px;
+  }
+  
+  .mensaje {
     color: rgb(248, 244, 234);
     font-size: 35px;
     margin: 10px;
-}
-
-.footer {
+  }
+  
+  .footer {
     font-family: Helvetica, sans-serif;
     text-align: center;
     background-color: rgb(87, 155, 177);
     padding: 5px;
     color: rgb(248, 244, 234);
     font-weight: bold;
-}
-
-.card {
+  }
+  
+  .card {
     background-color: rgb(248, 244, 234);
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 30px;
-}
-
-.botones {
+  }
+  
+  .botones {
     display: flex;
     justify-content: center;
     margin-bottom: 35px;
     justify-content: space-evenly;
-}
-
-.boton1off {
-    opacity: 0.5;
-    color: rgb(248, 244, 234);
-    border-radius: 25px;
-    height: 45px;
-    width: 130px;
-    font-size: 20px;
-    border: none;
-    background: rgb(87, 155, 177);
-}
-
-.boton1on {
-    color: rgb(248, 244, 234);
-    border-radius: 25px;
-    height: 45px;
-    width: 130px;
-    font-size: 20px;
-    border: none;
-    background: rgb(87, 155, 177);
-}
-
-.boton2off {
+  }
+  
+  .boton1off {
     opacity: 0.5;
     color: rgb(248, 244, 234);
     border-radius: 25px;
@@ -83,7 +61,28 @@ h2 {
     border: none;
     background: rgb(87, 155, 177);
   }
-
+  
+  .boton2off {
+    opacity: 0.5;
+    color: rgb(248, 244, 234);
+    border-radius: 25px;
+    height: 45px;
+    width: 130px;
+    font-size: 20px;
+    border: none;
+    background: rgb(87, 155, 177);
+  }
+  
+  .boton1on {
+    color: rgb(248, 244, 234);
+    border-radius: 25px;
+    height: 45px;
+    width: 130px;
+    font-size: 20px;
+    border: none;
+    background: rgb(87, 155, 177);
+  }
+  
   .boton2on {
     color: rgb(248, 244, 234);
     border-radius: 25px;
@@ -93,16 +92,16 @@ h2 {
     border: none;
     background: rgb(87, 155, 177);
   }
-
-.boton1on:active {
+  
+  .boton1on:active {
     background: rgb(63, 125, 146);
-}
-
-.boton2on:active {
+  }
+  
+  .boton2:active {
     background: rgb(63, 125, 146);
-}
-
-.filtro {
+  }
+  
+  .filtro {
     display: flex;
     justify-content: center;
     margin-top: 30px;
